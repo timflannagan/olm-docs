@@ -12,4 +12,4 @@ jobs:
         echo "Hello"
         git submodule update --init --recursive
         pwd && ls
-        ./hack/ci/lint-check.sh
+        ${PWD}/hack/ci/link-check.sh
