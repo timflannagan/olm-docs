@@ -12,5 +12,6 @@ jobs:
         submodules: recursive
 
     - run: |
+        echo "Hello"
         # git submodule update --init --recursive
         ./hack/ci/lint-check.sh
